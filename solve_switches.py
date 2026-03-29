@@ -9,7 +9,7 @@ SWITCHES = {
     3: [1, 2, 3],    # Switch 4: numbers 2, 3, 4
 }
 
-MIN_VAL, MAX_VAL = -2, 2
+MIN_VAL, MAX_VAL = -3, 3
 INITIAL = (0, 0, -1, 0)
 GOAL = (0, 0, 0, 0)
 
