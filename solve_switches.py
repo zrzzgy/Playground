@@ -43,7 +43,7 @@ def apply_switch_clamped(state, switch_idx, direction):
     return tuple(new_state) if any_changed else None
 
 
-apply_switch = apply_switch_clamped  # try clamped interpretation first
+apply_switch = apply_switch_blocked  # blocked: move is invalid if any number would exceed bounds
 
 
 def bfs():
